@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,body {
+  height: 100%;
+  background: linear-gradient(#94bbe9,#899191 );
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 2%;
+  margin: 0 auto;
+  height: 100%;
+}
+.container h2 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 30px;
+}
+
+form {
+  background: linear-gradient(#eeaeca, #94bbe9);
+  width: 100%;
+  max-width: 600px;
+  /* height: 300px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin: 0 auto;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 30px;
+  margin-top: 30px;
+}
+.form-group {
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+
+.form-group label {
+  font-size: 18px;
+  color: #fff;
+}
+.form-group input[type=text]{
+  width: 100%;
+  max-width: 220px;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 2px solid #999;
+  margin: 10px 0;
+}
+
+.form-group input[type=text]:focus{
+  outline: 0;
+  border: 3px solid #9860db;
+}
+
+
+.form-group input[type=submit]{
+  width: 200px;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #eeaeca;
+  margin: 10px 0;
+  cursor: pointer;
+  /* transition: ease all 0.3s; */
+  color: #fff;
+
+}
+
+#resultado {
+  background-color: #fff;
+  height: 100px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: none;
+}
+
+#resultado p {
+  font-size: 19px;
+  line-height: 20px;
+  padding: 10px 1%;
+  text-align: center;
+  font-style: italic;
+}
+
